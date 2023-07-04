@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ES2015",
+    "lib": ["es2021", "DOM"],
+    "esModuleInterop": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "skipLibCheck": true,
+    "moduleResolution":"NodeNext",
+  },
+  "include": ["packages/"],
+  "references": []
+}

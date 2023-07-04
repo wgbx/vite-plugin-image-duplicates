@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-image-duplicates",
+  "version": "0.0.1",
+  "description": "查找项目中是否存在是否未使用的资源",
+  "keywords": [
+    "webpack-plugin",
+    "unused-assets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wgbx/vite-plugin-image-duplicates.git"
+  },
+  "homepage": "https://github.com/wgbx/vite-plugin-image-duplicates",
+  "exports": {
+    ".": {
+      "require": "./dist/vite-plugin-image-duplicates.cjs",
+      "import": "./dist/vite-plugin-image-duplicates.mjs"
+    }
+  },
+  "main": "dist/vite-plugin-image-duplicates.cjs",
+  "module": "dist/vite-plugin-image-duplicates.mjs",
+  "scripts": {
+    "build": "rollup --config ./rollup.config.mjs"
+  },
+  "author": "微光北下",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/node": "^20.3.3",
+    "picocolors": "^1.0.0",
+    "rollup": "^3.21.5",
+    "tslib": "^2.6.0"
+  }
+}
