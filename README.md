@@ -22,11 +22,10 @@ pnpm add vite-plugin-image-duplicates -D
 - vue.config.js
 
 ```js
-const imageDuplicates = require('vite-plugin-image-duplicates')
+import imageDuplicates from 'vite-plugin-image-duplicates'
 
-module.exports = {
-  configureWebpack: {
-    plugins: [imageDuplicates()]
-  }
-}
+export default defineConfig({
+  plugins: [vue(), imageDuplicates()],
+})
+
 ```

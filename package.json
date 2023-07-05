@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "查找项目中是否存在是否未使用的资源",
   "keywords": [
-    "webpack-plugin",
+    "vite-plugin",
     "unused-assets"
   ],
   "repository": {
@@ -33,6 +33,7 @@
     "@types/node": "^20.3.3",
     "picocolors": "^1.0.0",
     "rollup": "^3.21.5",
+    "rollup-plugin-typescript2": "^0.35.0",
     "tslib": "^2.6.0"
   }
 }
