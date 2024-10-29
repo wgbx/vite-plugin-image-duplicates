@@ -1,6 +1,6 @@
 {
   "name": "@wgbx/vite-plugin-image-duplicates",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "查找项目中是否有重复图片",
   "keywords": [
     "vite-plugin",
