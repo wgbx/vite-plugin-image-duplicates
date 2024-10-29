@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-image-duplicates",
-  "version": "0.0.2",
+  "name": "@wgbx/vite-plugin-image-duplicates",
+  "version": "1.0.0",
   "description": "查找项目中是否有重复图片",
   "keywords": [
     "vite-plugin",
@@ -17,6 +17,9 @@
       "require": "./dist/vite-plugin-image-duplicates.cjs",
       "import": "./dist/vite-plugin-image-duplicates.mjs"
     }
+  },
+  "publishConfig": {
+    "@wgbx:registry": "https://npm.pkg.github.com"
   },
   "main": "dist/vite-plugin-image-duplicates.cjs",
   "module": "dist/vite-plugin-image-duplicates.mjs",
