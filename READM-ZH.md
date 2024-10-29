@@ -9,7 +9,7 @@
 | `imageType`    | 否           | 需要查找的图片类型 | ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg', '.webp']|`Array<string>` |
 | `imageType`    | 否           | 输出的资源路径格式 | false      | `Boolean` |
 
-## 安装
+## [安装](https://www.npmjs.com/package/vite-plugin-image-duplicates)
 
 ```bash
 npm install vite-plugin-image-duplicates -D

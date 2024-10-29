@@ -1,6 +1,7 @@
 <h1 align="center">vite-plugin-image-duplicates</h1>
 <p align="center">Find whether there are duplicate images in the project</p>
-<p align="center">[简体中文](./READM-ZH.md)</p>
+
+[简体中文](./READM-ZH.md)
 
 ## Configuration Options
 
@@ -10,7 +11,7 @@
 | `imageType`    | No           | The image types to be searched | ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg', '.webp']|`Array<string>` |
 | `outputResourcePathFormat`    | No           | The output resource path format | false      | `Boolean` |
 
-## Installation
+## [Installation](https://www.npmjs.com/package/vite-plugin-image-duplicates)
 
 ```bash
 npm install vite-plugin-image-duplicates -D
